@@ -16,9 +16,15 @@ const styles = StyleSheet.create({
         fontFamily: 'Archivo_700Bold',
         color: '#fff',
         fontSize: 24,
-        lineHeight: 32,
-        maxWidth: 160,
+        lineHeight: 22,
+        maxWidth: 180,
         marginVertical: 40,
+    },
+
+    header: {
+        flexDirection: 'row',
+        alignItems: 'center',
+        justifyContent: 'space-between',
     },
 });
 
